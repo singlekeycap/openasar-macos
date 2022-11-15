@@ -12,7 +12,6 @@ then
 	rm /Applications/Discord\ Canary.app/Contents/Resources/app.asar.bak
 	echo "Done! Open Discord to apply changes."
 else
-	mv /Applications/Discord\ Canary.app/Contents/Resources/app.asar.bak /Applications/Discord\ 
-Canary.app/Contents/Resources/app.asar
+	mv /Applications/Discord\ Canary.app/Contents/Resources/app.asar.bak /Applications/Discord\ Canary.app/Contents/Resources/app.asar
 	echo "An error occurred! Installation cannot proceed. Is this script outdated?"
 fi
